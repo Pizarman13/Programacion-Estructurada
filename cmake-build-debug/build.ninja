@@ -172,6 +172,39 @@ build E4.exe: CXX_EXECUTABLE_LINKER__E4_Debug CMakeFiles/E4.dir/E4.cpp.obj
   TARGET_IMPLIB = libE4.dll.a
   TARGET_PDB = E4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target E5
+
+
+#############################################
+# Order-only phony target for E5
+
+build cmake_object_order_depends_target_E5: phony || CMakeFiles/E5.dir
+
+build CMakeFiles/E5.dir/E5.cpp.obj: CXX_COMPILER__E5_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/E5.cpp || cmake_object_order_depends_target_E5
+  DEP_FILE = CMakeFiles\E5.dir\E5.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\E5.dir
+  OBJECT_FILE_DIR = CMakeFiles\E5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target E5
+
+
+#############################################
+# Link the executable E5.exe
+
+build E5.exe: CXX_EXECUTABLE_LINKER__E5_Debug CMakeFiles/E5.dir/E5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\E5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E5.exe
+  TARGET_IMPLIB = libE5.dll.a
+  TARGET_PDB = E5.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +239,8 @@ build E3: phony E3.exe
 
 build E4: phony E4.exe
 
+build E5: phony E5.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +249,7 @@ build E4: phony E4.exe
 #############################################
 # Folder: C:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/cmake-build-debug
 
-build all: phony E1.exe E2.exe E3.exe E4.exe
+build all: phony E1.exe E2.exe E3.exe E4.exe E5.exe
 
 # =============================================================================
 # Built-in targets
