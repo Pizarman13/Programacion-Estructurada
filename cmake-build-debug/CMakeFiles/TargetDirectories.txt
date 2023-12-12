@@ -1,0 +1,3 @@
+C:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/cmake-build-debug/CMakeFiles/Programacion_Estructurada.dir
+C:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/cmake-build-debug/CMakeFiles/rebuild_cache.dir
