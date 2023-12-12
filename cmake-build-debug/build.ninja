@@ -106,6 +106,39 @@ build E2.exe: CXX_EXECUTABLE_LINKER__E2_Debug CMakeFiles/E2.dir/E2.cpp.obj
   TARGET_IMPLIB = libE2.dll.a
   TARGET_PDB = E2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target E3
+
+
+#############################################
+# Order-only phony target for E3
+
+build cmake_object_order_depends_target_E3: phony || CMakeFiles/E3.dir
+
+build CMakeFiles/E3.dir/E3.cpp.obj: CXX_COMPILER__E3_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/E3.cpp || cmake_object_order_depends_target_E3
+  DEP_FILE = CMakeFiles\E3.dir\E3.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\E3.dir
+  OBJECT_FILE_DIR = CMakeFiles\E3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target E3
+
+
+#############################################
+# Link the executable E3.exe
+
+build E3.exe: CXX_EXECUTABLE_LINKER__E3_Debug CMakeFiles/E3.dir/E3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\E3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E3.exe
+  TARGET_IMPLIB = libE3.dll.a
+  TARGET_PDB = E3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +169,8 @@ build E1: phony E1.exe
 
 build E2: phony E2.exe
 
+build E3: phony E3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +179,7 @@ build E2: phony E2.exe
 #############################################
 # Folder: C:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/cmake-build-debug
 
-build all: phony E1.exe E2.exe
+build all: phony E1.exe E2.exe E3.exe
 
 # =============================================================================
 # Built-in targets
