@@ -41,43 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Programacion_Estructurada
+# Object build statements for EXECUTABLE target E1
 
 
 #############################################
-# Order-only phony target for Programacion_Estructurada
+# Order-only phony target for E1
 
-build cmake_object_order_depends_target_Programacion_Estructurada: phony || CMakeFiles/Programacion_Estructurada.dir
+build cmake_object_order_depends_target_E1: phony || CMakeFiles/E1.dir
 
-build CMakeFiles/Programacion_Estructurada.dir/E1.cpp.obj: CXX_COMPILER__Programacion_Estructurada_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/E1.cpp || cmake_object_order_depends_target_Programacion_Estructurada
-  DEP_FILE = CMakeFiles\Programacion_Estructurada.dir\E1.cpp.obj.d
+build CMakeFiles/E1.dir/E1.cpp.obj: CXX_COMPILER__E1_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/E1.cpp || cmake_object_order_depends_target_E1
+  DEP_FILE = CMakeFiles\E1.dir\E1.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Programacion_Estructurada.dir
-  OBJECT_FILE_DIR = CMakeFiles\Programacion_Estructurada.dir
-
-build CMakeFiles/Programacion_Estructurada.dir/E2.cpp.obj: CXX_COMPILER__Programacion_Estructurada_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/E2.cpp || cmake_object_order_depends_target_Programacion_Estructurada
-  DEP_FILE = CMakeFiles\Programacion_Estructurada.dir\E2.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Programacion_Estructurada.dir
-  OBJECT_FILE_DIR = CMakeFiles\Programacion_Estructurada.dir
+  OBJECT_DIR = CMakeFiles\E1.dir
+  OBJECT_FILE_DIR = CMakeFiles\E1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Programacion_Estructurada
+# Link build statements for EXECUTABLE target E1
 
 
 #############################################
-# Link the executable Programacion_Estructurada.exe
+# Link the executable E1.exe
 
-build Programacion_Estructurada.exe: CXX_EXECUTABLE_LINKER__Programacion_Estructurada_Debug CMakeFiles/Programacion_Estructurada.dir/E1.cpp.obj CMakeFiles/Programacion_Estructurada.dir/E2.cpp.obj
+build E1.exe: CXX_EXECUTABLE_LINKER__E1_Debug CMakeFiles/E1.dir/E1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Programacion_Estructurada.dir
+  OBJECT_DIR = CMakeFiles\E1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Programacion_Estructurada.exe
-  TARGET_IMPLIB = libProgramacion_Estructurada.dll.a
-  TARGET_PDB = Programacion_Estructurada.exe.dbg
+  TARGET_FILE = E1.exe
+  TARGET_IMPLIB = libE1.dll.a
+  TARGET_PDB = E1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target E2
+
+
+#############################################
+# Order-only phony target for E2
+
+build cmake_object_order_depends_target_E2: phony || CMakeFiles/E2.dir
+
+build CMakeFiles/E2.dir/E2.cpp.obj: CXX_COMPILER__E2_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/E2.cpp || cmake_object_order_depends_target_E2
+  DEP_FILE = CMakeFiles\E2.dir\E2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\E2.dir
+  OBJECT_FILE_DIR = CMakeFiles\E2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target E2
+
+
+#############################################
+# Link the executable E2.exe
+
+build E2.exe: CXX_EXECUTABLE_LINKER__E2_Debug CMakeFiles/E2.dir/E2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\E2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E2.exe
+  TARGET_IMPLIB = libE2.dll.a
+  TARGET_PDB = E2.exe.dbg
 
 
 #############################################
@@ -105,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Programacion_Estructurada: phony Programacion_Estructurada.exe
+build E1: phony E1.exe
+
+build E2: phony E2.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +144,7 @@ build Programacion_Estructurada: phony Programacion_Estructurada.exe
 #############################################
 # Folder: C:/Users/Pizarman/Documents/GitHub/Programacion-Estructurada/cmake-build-debug
 
-build all: phony Programacion_Estructurada.exe
+build all: phony E1.exe E2.exe
 
 # =============================================================================
 # Built-in targets

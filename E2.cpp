@@ -25,5 +25,14 @@ int main() {
     strcpy(dato.str, "C programming");
     printf("dato.str: %s\n", dato.str);
 
+    dato.i = 11;
+    printf("dato.i: %d\n", dato.i);
+
+    dato.f = 11.3;
+    printf("dato.f: %.2f\n", dato.f);
+
+    strcpy(dato.str, "Java programming");
+    printf("dato2.str: %s\n", dato.str);
+
     return 0;
 }

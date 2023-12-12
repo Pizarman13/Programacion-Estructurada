@@ -3,5 +3,5 @@ project(Programacion_Estructurada)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(E1 ../E1/main.cpp)
-add_executable(E2 ../E2/main.cpp)
+add_executable(E1 "E1.cpp")
+add_executable(E2 "E2.cpp")
