@@ -2,7 +2,7 @@
 // Created by Pizarman on 12/12/2023.
 //
 #include <iostream>
-#include <string.h>
+#include <cstring>
 
 // a
 struct Estudiante {

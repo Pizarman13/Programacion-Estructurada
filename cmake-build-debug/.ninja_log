@@ -1,9 +1,4 @@
 # ninja log v5
-1	290	7241149750701830	CMakeFiles/Programacion_Estructurada.dir/E1.cpp.obj	3a65ecfcb154d56e
-291	383	7241149751609687	Programacion_Estructurada.exe	6e129e6b4736c56
-3	248	7241153730362661	CMakeFiles/Programacion_Estructurada.dir/E1.cpp.obj	3a65ecfcb154d56e
-249	320	7241153731063302	Programacion_Estructurada.exe	6e129e6b4736c56
-2	244	7241154244972489	CMakeFiles/Programacion_Estructurada.dir/E1.cpp.obj	3a65ecfcb154d56e
-245	317	7241154245663118	Programacion_Estructurada.exe	6e129e6b4736c56
-3	238	7241155306316419	CMakeFiles/Programacion_Estructurada.dir/E1.cpp.obj	3a65ecfcb154d56e
+5	241	7241160923937808	CMakeFiles/Programacion_Estructurada.dir/E1.cpp.obj	3a65ecfcb154d56e
 238	302	7241155306936983	Programacion_Estructurada.exe	6e129e6b4736c56
+2	62	7241160922146173	CMakeFiles/Programacion_Estructurada.dir/E2.cpp.obj	563367d1321c8ade
