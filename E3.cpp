@@ -44,6 +44,5 @@ int main() {
     std::cout << "edad de la copia: " << est.edad << std::endl;
     std::cout << "promedio de la copia: " << est.promedio << std::endl;
 
-
     return 0;
 }
