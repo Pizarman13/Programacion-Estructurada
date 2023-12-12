@@ -2,7 +2,6 @@
 // Created by Pizarman on 12/12/2023.
 //
 #include <iostream>
-#include <cstring>
 
 struct Estudiante {
     char *nombre;
